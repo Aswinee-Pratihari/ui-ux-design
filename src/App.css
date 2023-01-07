@@ -36,8 +36,8 @@ a{
 }
 
 .gradient__text {
-    background: var(--gradient-text);
-    background-clip: text;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    /* background-clip: text; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -85,9 +85,7 @@ a{
         margin: 4rem ;
        
       }
-      body{
-        color: aqua;
-      }
+     
   }
 
   @media screen and (max-width:550px) {
